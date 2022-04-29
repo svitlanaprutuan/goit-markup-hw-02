@@ -1,14 +1,73 @@
-body{
-    font-family: 'Roboto', sans-serif;
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* text-colors */
+  --accent-color: #2196F3;
+  --main-text-color:#757575 ;
+  --secondary-text-color: #212121;
+
+  /* background colors */
+  --main-backgroud-color: #ffffff;
+  --secondary-backround-color: #F5F4FA;
+  --dark-background-color: #2F303A;
 }
-.link { 
-    font-family: 'Roboto';
-font-style: normal;
+
+body {
+  font-family: var(--main-font);
+font-size: 14px;
+line-height: 1.71
+letter-spacing: 0.03em;
+
+color: var(--main-text-color);
+}
+
+.link{
+    text-decoration: none;
+    color: currentColor;
+}
+.button{
+    font-family: inherit;
+    color: currentColor;
+}
+
+
+
+.link {
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+/* 
+===================
+| Header-section 
+===================
+*/
+.header{
+
+}
+
+.navigation-link,{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+
+
+
+.header-phone{
+
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #212121;
-
+color: var(--main-text-color);
 }
